@@ -1,0 +1,15 @@
+:root {
+  --waffolo: violet;
+  --primary: indigo;
+}
+
+.container-fluid {
+  max-width: 992px;
+  background-color: var(--waffolo);
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  --bs-btn-hover-bg: var(--waffolo);
+}
